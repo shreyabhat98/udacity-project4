@@ -3,8 +3,9 @@ from flask.logging import create_logger
 import logging
 
 import pandas as pd
-#from sklearn.externals 
+#from sklearn.externals import joblib
 import joblib
+#import sklearn.ensemble.GradientBoostingClassifier
 from sklearn.preprocessing import StandardScaler
 
 app = Flask(__name__)
